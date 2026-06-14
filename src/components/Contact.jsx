@@ -28,10 +28,10 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  // EmailJS configuration variables (Users can replace these with their own)
-  const EMAILJS_SERVICE_ID = ""; // e.g. "service_xxxxxx"
-  const EMAILJS_TEMPLATE_ID = ""; // e.g. "template_xxxxxx"
-  const EMAILJS_PUBLIC_KEY = ""; // e.g. "user_xxxxxxxxxxxxxxxx"
+  // EmailJS configuration variables (loaded from environment variables for security)
+  const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || "";
+  const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "";
+  const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
