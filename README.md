@@ -2,6 +2,9 @@
 
 A premium, highly responsive, futuristic developer portfolio website built using **React 18**, **Vite**, **Tailwind CSS v4**, and **Framer Motion**. It features smooth scrolling, ambient neon glow animations, responsive sidebar navigation, a dynamic project showcase, and a fully functional contact form.
 
+## Live Link
+https://muhammad-abdullah-portfolio-nu.vercel.app/
+
 ---
 
 ## 🎨 Design & Interactions
