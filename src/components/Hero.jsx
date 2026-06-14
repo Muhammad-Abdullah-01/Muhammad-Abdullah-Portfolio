@@ -116,9 +116,8 @@ export default function Hero() {
           </button>
           
           <a
-            href="/cv.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="Muhammad Abdullah - CV.pdf"
+            download
             className="flex items-center justify-center gap-2 border border-white/20 hover:border-neon-cyan bg-white/5 hover:bg-white/10 text-white font-semibold px-8 py-3.5 rounded-full hover:scale-105 transition-all duration-300 cursor-pointer"
           >
             Download CV
