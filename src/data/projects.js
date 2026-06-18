@@ -11,6 +11,16 @@ export const projectsData = [
   },
   {
     id: 2,
+    title: "HealSync AI",
+    description: "State-of-the-art intelligent healthcare assistant featuring a patient/doctor portal, medical & emotional support chatbots, and AI risk prediction models.",
+    tech: ["Python", "Streamlit", "MongoDB", "LLMs", "Machine Learning"],
+    status: "BUILD COMPLETE",
+    github: "https://github.com/Muhammad-Abdullah-01/HealSync-AI",
+    demo: "https://github.com/Muhammad-Abdullah-01/HealSync-AI",
+    image: "/healsync_ai.png"
+  },
+  {
+    id: 3,
     title: "ScholarAssistant",
     description: "AI-powered academic research assistant featuring semantic search across arXiv & Semantic Scholar, citation recommendation, and PDF chat.",
     tech: ["Python", "OpenAI API", "FastAPI", "Streamlit"],
@@ -20,7 +30,7 @@ export const projectsData = [
     image: "/scholar_assistant.png"
   },
   {
-    id: 3,
+    id: 4,
     title: "TransitFlow Bus Ticketing",
     description: "Robust booking management software with visual seating charts, real-time route checking, Stripe payments, and SMTP email notifications.",
     tech: ["Python", "Tkinter", "SQLite", "Stripe"],
@@ -30,7 +40,7 @@ export const projectsData = [
     image: "/transitflow_bus.png"
   },
   {
-    id: 4,
+    id: 5,
     title: "Sudoku x86 Assembly",
     description: "Fully playable Sudoku game in x86 16-bit Assembly featuring direct video memory rendering, hardware timer interrupt, and PC speaker sound.",
     tech: ["Assembly", "DOSBox", "Low-Level"],
@@ -40,7 +50,7 @@ export const projectsData = [
     image: "/sudoku_assembly.png"
   },
   {
-    id: 5,
+    id: 6,
     title: "Klondike Solitaire C++",
     description: "Fully playable Klondike Solitaire card game in C++ console, built with custom doubly linked list, stack, and undo system without STL.",
     tech: ["C++", "Data Structures", "Console"],
@@ -50,7 +60,7 @@ export const projectsData = [
     image: "/solitaire_cpp.png"
   },
   {
-    id: 6,
+    id: 7,
     title: "Facebook Simulation C++",
     description: "Console-based Facebook simulation in C++ implementing advanced OOP concepts, polymorphism, dynamic memory, and file structures without STL.",
     tech: ["C++", "OOP", "Console"],
