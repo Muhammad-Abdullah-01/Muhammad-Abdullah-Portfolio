@@ -29,22 +29,17 @@ export const educationData = [
 ];
 
 export const certificationsData = [
-  {
-    title: "AWS Certified Developer - Associate",
-    issuer: "Amazon Web Services",
-    date: "2025",
-    link: "https://aws.amazon.com/"
+    {
+    title: "Agent Skills with Anthropic",
+    issuer: "DeepLearning.ai",
+    date: "2026",
+    link: "https://www.deeplearning.ai/courses/agent-skills-with-anthropic"
   },
   {
-    title: "React Professional Certification",
-    issuer: "Meta",
-    date: "2024",
-    link: "https://coursera.org"
-  },
-  {
-    title: "Google Cloud Digital Leader",
-    issuer: "Google",
-    date: "2025",
-    link: "https://cloud.google.com/"
+    title: "ChatGPT Prompt Engineering for Developers",
+    issuer: "DeepLearning.ai",
+    date: "2026",
+    link: "https://www.deeplearning.ai/alpha/short-courses/chatgpt-prompt-engineering-for-developers"
   }
+
 ];

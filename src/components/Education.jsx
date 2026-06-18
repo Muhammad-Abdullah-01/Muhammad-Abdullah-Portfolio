@@ -49,7 +49,7 @@ export default function Education() {
         </div>
 
         {/* Right Panel: Certifications */}
-        {/* <div className="space-y-6">
+        <div className="space-y-6">
           <div className="flex items-center gap-2 mb-4">
             <Award className="text-neon-cyan" size={24} />
             <h3 className="text-2xl font-bold text-white">Certifications</h3>
@@ -85,12 +85,12 @@ export default function Education() {
             ))}
           </div>
 
-          {/* <div className="mt-8 p-4 rounded-xl border border-dashed border-slate-800 text-center">
+          <div className="mt-8 p-4 rounded-xl border border-dashed border-slate-800 text-center">
             <span className="text-[10px] text-slate-500 tracking-widest uppercase block animate-pulse">
               ⚡ Always learning and growing
             </span>
-          </div> */}
-        {/* </div> */}
+          </div>
+        </div>
       </div>
     </div>
   );
